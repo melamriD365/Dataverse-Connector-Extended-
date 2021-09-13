@@ -1,0 +1,326 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Default title",
+    "description": "",
+    "version": "1.0"
+  },
+  "host": "mmlearning.crm4.dynamics.com",
+  "basePath": "/",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [],
+  "produces": [],
+  "paths": {
+    "/trigger/mmlearning.crm4.dynamics.com/api/data/v9.2/activitypointers": {},
+    "/trigger/api/data/v9.2/activitypointers": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "@odata.context": {
+                  "type": "string",
+                  "description": "@odata.context"
+                },
+                "value": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "@odata.type": {
+                        "type": "string",
+                        "description": "@odata.type"
+                      },
+                      "@odata.etag": {
+                        "type": "string",
+                        "description": "@odata.etag"
+                      },
+                      "scheduledstart": {
+                        "type": "string",
+                        "description": "scheduledstart"
+                      },
+                      "scheduleddurationminutes": {
+                        "type": "integer",
+                        "description": "scheduleddurationminutes",
+                        "title": "",
+                        "format": "int32"
+                      },
+                      "statuscode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "statuscode"
+                      },
+                      "leftvoicemail": {
+                        "type": "boolean",
+                        "description": "leftvoicemail"
+                      },
+                      "createdon": {
+                        "type": "string",
+                        "description": "createdon"
+                      },
+                      "statecode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "statecode"
+                      },
+                      "isbilled": {
+                        "type": "boolean",
+                        "description": "isbilled"
+                      },
+                      "subject": {
+                        "type": "string",
+                        "description": "subject"
+                      },
+                      "_ownerid_value": {
+                        "type": "string",
+                        "description": "_ownerid_value"
+                      },
+                      "modifiedon": {
+                        "type": "string",
+                        "description": "modifiedon"
+                      },
+                      "versionnumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "versionnumber"
+                      },
+                      "prioritycode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "prioritycode"
+                      },
+                      "_transactioncurrencyid_value": {
+                        "type": "string",
+                        "description": "_transactioncurrencyid_value"
+                      },
+                      "exchangerate": {
+                        "type": "number",
+                        "description": "exchangerate",
+                        "title": "",
+                        "format": "float"
+                      },
+                      "timezoneruleversionnumber": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "timezoneruleversionnumber"
+                      },
+                      "isregularactivity": {
+                        "type": "boolean",
+                        "description": "isregularactivity"
+                      },
+                      "ismapiprivate": {
+                        "type": "boolean",
+                        "description": "ismapiprivate"
+                      },
+                      "_modifiedby_value": {
+                        "type": "string",
+                        "description": "_modifiedby_value"
+                      },
+                      "activitytypecode": {
+                        "type": "string",
+                        "description": "activitytypecode"
+                      },
+                      "instancetypecode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "instancetypecode"
+                      },
+                      "isworkflowcreated": {
+                        "type": "boolean",
+                        "description": "isworkflowcreated"
+                      },
+                      "deliveryprioritycode": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "deliveryprioritycode"
+                      },
+                      "_createdby_value": {
+                        "type": "string",
+                        "description": "_createdby_value"
+                      },
+                      "_owningbusinessunit_value": {
+                        "type": "string",
+                        "description": "_owningbusinessunit_value"
+                      },
+                      "_owninguser_value": {
+                        "type": "string",
+                        "description": "_owninguser_value"
+                      },
+                      "activityid": {
+                        "type": "string",
+                        "description": "activityid"
+                      },
+                      "scheduledend": {
+                        "type": "string",
+                        "description": "scheduledend"
+                      },
+                      "actualdurationminutes": {
+                        "type": "integer",
+                        "description": "actualdurationminutes",
+                        "title": "",
+                        "format": "int64"
+                      },
+                      "onholdtime": {
+                        "type": "string",
+                        "description": "onholdtime"
+                      },
+                      "_slaid_value": {
+                        "type": "string",
+                        "description": "_slaid_value"
+                      },
+                      "seriesid": {
+                        "type": "string",
+                        "description": "seriesid"
+                      },
+                      "actualstart": {
+                        "type": "string",
+                        "description": "actualstart"
+                      },
+                      "exchangeitemid": {
+                        "type": "string",
+                        "description": "exchangeitemid"
+                      },
+                      "stageid": {
+                        "type": "string",
+                        "description": "stageid"
+                      },
+                      "_regardingobjectid_value": {
+                        "type": "string",
+                        "description": "_regardingobjectid_value"
+                      },
+                      "postponeactivityprocessinguntil": {
+                        "type": "string",
+                        "description": "postponeactivityprocessinguntil"
+                      },
+                      "senton": {
+                        "type": "string",
+                        "description": "senton"
+                      },
+                      "_serviceid_value": {
+                        "type": "string",
+                        "description": "_serviceid_value"
+                      },
+                      "activityadditionalparams": {
+                        "type": "string",
+                        "description": "activityadditionalparams"
+                      },
+                      "_modifiedonbehalfby_value": {
+                        "type": "string",
+                        "description": "_modifiedonbehalfby_value"
+                      },
+                      "actualend": {
+                        "type": "string",
+                        "description": "actualend"
+                      },
+                      "community": {
+                        "type": "string",
+                        "description": "community"
+                      },
+                      "_slainvokedid_value": {
+                        "type": "string",
+                        "description": "_slainvokedid_value"
+                      },
+                      "utcconversiontimezonecode": {
+                        "type": "string",
+                        "description": "utcconversiontimezonecode"
+                      },
+                      "processid": {
+                        "type": "string",
+                        "description": "processid"
+                      },
+                      "_createdonbehalfby_value": {
+                        "type": "string",
+                        "description": "_createdonbehalfby_value"
+                      },
+                      "exchangeweblink": {
+                        "type": "string",
+                        "description": "exchangeweblink"
+                      },
+                      "lastonholdtime": {
+                        "type": "string",
+                        "description": "lastonholdtime"
+                      },
+                      "deliverylastattemptedon": {
+                        "type": "string",
+                        "description": "deliverylastattemptedon"
+                      },
+                      "_sendermailboxid_value": {
+                        "type": "string",
+                        "description": "_sendermailboxid_value"
+                      },
+                      "description": {
+                        "type": "string",
+                        "description": "description"
+                      },
+                      "traversedpath": {
+                        "type": "string",
+                        "description": "traversedpath"
+                      },
+                      "sortdate": {
+                        "type": "string",
+                        "description": "sortdate"
+                      },
+                      "_owningteam_value": {
+                        "type": "string",
+                        "description": "_owningteam_value"
+                      }
+                    }
+                  },
+                  "description": "value"
+                }
+              }
+            }
+          }
+        },
+        "summary": "When an activity is updated",
+        "description": "When an activity is updated",
+        "operationId": "UpdateOfActivity",
+        "x-ms-trigger": "batch",
+        "x-ms-trigger-metadata": {
+          "mode": "polling",
+          "kind": "query"
+        },
+        "parameters": [
+          {
+            "name": "$filter",
+            "in": "query",
+            "required": false,
+            "type": "string",
+            "x-ms-visibility": "internal"
+          },
+          {
+            "name": "$orderby",
+            "in": "query",
+            "required": false,
+            "type": "string",
+            "enum": [
+              "modifiedon desc"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "definitions": {},
+  "parameters": {},
+  "responses": {},
+  "securityDefinitions": {
+    "oauth2_auth": {
+      "type": "oauth2",
+      "flow": "accessCode",
+      "authorizationUrl": "https://login.windows.net/common/oauth2/authorize",
+      "tokenUrl": "https://login.windows.net/common/oauth2/authorize",
+      "scopes": {}
+    }
+  },
+  "security": [
+    {
+      "oauth2_auth": []
+    }
+  ],
+  "tags": []
+}
