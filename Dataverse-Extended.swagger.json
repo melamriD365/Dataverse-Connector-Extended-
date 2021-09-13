@@ -5,7 +5,7 @@
     "description": "",
     "version": "1.0"
   },
-  "host": "mmlearning.crm4.dynamics.com",
+  "host": "yourOrg.crm4.dynamics.com",
   "basePath": "/",
   "schemes": [
     "https"
@@ -13,7 +13,7 @@
   "consumes": [],
   "produces": [],
   "paths": {
-    "/trigger/mmlearning.crm4.dynamics.com/api/data/v9.2/activitypointers": {},
+    "/trigger/yourOrg.crm4.dynamics.com/api/data/v9.2/activitypointers": {},
     "/trigger/api/data/v9.2/activitypointers": {
       "get": {
         "responses": {
