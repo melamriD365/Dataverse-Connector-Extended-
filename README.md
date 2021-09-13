@@ -1,1 +1,1 @@
-# Dataverse-Connector-Extended-
+# Dataverse Connector (Extended)
